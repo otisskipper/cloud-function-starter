@@ -2,13 +2,12 @@
  "steps": [
   {
      "name": "gcr.io/google.com/cloudsdktool/cloud-sdk",
-     "entrypoint": "bash",
      "args": [
        "gcloud",
        "functions",
        "deploy",
         "test-https3",
-        "--region=us-west1",
+        "--region=us-west2",
         "--source=.",
         "--trigger-http",
         "--runtime=python3.12"
