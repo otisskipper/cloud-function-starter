@@ -11,10 +11,11 @@
         "--source=.",
         "--trigger-http",
         "--runtime=python3.12"
-     ],
-     "options": {
-      "logging": "CLOUD_LOGGING_ONLY",
-    }
+     ]
+     
    }
-  ]
+  ],
+  "options": {
+    "logging": "CLOUD_LOGGING_ONLY"
+  }
 }
