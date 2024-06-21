@@ -6,4 +6,4 @@ def cool_function_1(params):
     print('params:', params)
     # DO STUFF HERE
     
-    return 'the function ran'
+    return 'hello {}'.format(params['name'])

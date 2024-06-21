@@ -18,6 +18,6 @@ def hello_http(request):
     """
     # If you pass json it comes here, this gets passed to your function
     request_json = request.get_json(silent=True)    
-    fun.cool_function_1(request_json)
+    resp = fun.cool_function_1(request_json)
     
-    return 'end of hellp_http function'
+    return resp
