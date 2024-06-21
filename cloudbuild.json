@@ -16,7 +16,6 @@
      
    }
   ],
-  "serviceAccount": "projects/cd-testing-dev/serviceAccounts/cloud-function-local-dev@cd-testing-dev.iam.gserviceaccount.com",
   "options": {
     "logging": "CLOUD_LOGGING_ONLY"
   }
