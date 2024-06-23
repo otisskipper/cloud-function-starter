@@ -9,7 +9,7 @@
        "deploy",
        "--gen2",
         "testhttps3",
-        "entry-point=hello_http",
+        "--entry-point=hello_http",
         "--region=us-west2",
         "--source=.",
         "--trigger-http",
