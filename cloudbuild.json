@@ -6,6 +6,7 @@
        "gcloud",
        "functions",
        "deploy",
+       "--gen2",
         "testhttps3",
         "--region=us-west2",
         "--source=.",
