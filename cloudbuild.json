@@ -11,13 +11,12 @@
         "--source=.",
         "--trigger-http",
         "--runtime=Python312",
-        "--serviceAccount=cloud-function-local-dev@cd-testing-dev.iam.gserviceaccount.com"
+        "--service-account=cloud-function-local-dev@cd-testing-dev.iam.gserviceaccount.com"
 
      ] 
    }
   ],
   "options": {
     "logging": "CLOUD_LOGGING_ONLY"
-  },
-  "serviceAccount": "cloud-function-local-dev@cd-testing-dev.iam.gserviceaccount.com"
+  }
 }
