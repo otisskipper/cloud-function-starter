@@ -19,7 +19,11 @@ def hello_http(request):
     """
     # If you pass json it comes here, this gets passed to your function
     request_json = request.get_json(silent=True)    
-    print(request_json)
-    resp = fun.cool_function_1(request_json)
-    print(resp)
-    return 'ok'
+    if request_json:
+        params = request_json
+    else:
+        params = request.args
+
+    resp = fun.cool_function_1(params)
+    
+    return resp

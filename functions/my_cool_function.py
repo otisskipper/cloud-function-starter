@@ -6,5 +6,5 @@ def cool_function_1(params):
     print('params:', params)
     # DO STUFF HERE
     
-    # return 'howdy {}'.format(params['name'])
-    return 'the function ran'
+    return 'howdy {}'.format(params['name'])
+    # return 'the function ran'
