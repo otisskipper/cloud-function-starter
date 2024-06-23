@@ -3,7 +3,7 @@
 # This is built to handle http requests to pass different parameters to your function, but you may not need to leverage that depending on your use case (just leave it as-is)
 
 import functions_framework
-# import functions.my_cool_function as fun 
+import functions.my_cool_function as fun 
 
 @functions_framework.http
 def testhttp3(request):
