@@ -6,7 +6,7 @@ import functions_framework
 import functions.my_cool_function as fun 
 
 @functions_framework.http
-def testhttp3(request):
+def hello_http(request):
     # THIS FUNCTION MUST BE THE SAME NAME AS THE CLOUD FUNCTION IN THE DEPLOYMENT
     """HTTP Cloud Function.
     Args:
