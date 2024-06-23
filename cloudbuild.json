@@ -10,7 +10,7 @@
         "--region=us-west2",
         "--source=.",
         "--trigger-http",
-        "--runtime=Python312",
+        "--runtime=python312",
         "--service-account=cloud-function-local-dev@cd-testing-dev.iam.gserviceaccount.com"
         
 
