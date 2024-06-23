@@ -6,4 +6,4 @@ def cool_function_1(params):
     print('params:', params)
     # DO STUFF HERE
     
-    return 'hello {}'.format(params['name'])
+    return 'howdy {}'.format(params['name'])

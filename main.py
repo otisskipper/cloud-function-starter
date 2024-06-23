@@ -18,7 +18,7 @@ def hello_http(request):
         <https://flask.palletsprojects.com/en/1.1.x/api/#flask.make_response>.
     """
     # If you pass json it comes here, this gets passed to your function
-    # request_json = request.get_json(silent=True)    
-    # resp = fun.cool_function_1(request_json)
+    request_json = request.get_json(silent=True)    
+    resp = fun.cool_function_1(request_json)
     
-    return 'hello'
+    return resp

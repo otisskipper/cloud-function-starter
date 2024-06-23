@@ -11,7 +11,7 @@ import main
 from flask import Request
 
 # Edit these to change the input to the cloud function (this just applies to local testing)
-params = {'name': 'Otis'}
+params = {'name': 'Ryan'}
 
 req = Request.from_values(json=params)
 
