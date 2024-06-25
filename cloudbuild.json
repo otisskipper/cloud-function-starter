@@ -18,6 +18,7 @@
         "--region=us-west2",
         "--source=.",
         "--trigger-http",
+        "--allow-unauthenticated",
         "--runtime=python312",
         "--service-account=cloud-function-local-dev@cd-testing-dev.iam.gserviceaccount.com"
      ] 
