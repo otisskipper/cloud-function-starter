@@ -1,1 +1,2 @@
 functions-framework==3.*
+git+https://github.com/carbondirect/data_helpers@main

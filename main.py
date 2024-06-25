@@ -4,6 +4,7 @@
 
 import functions_framework
 import functions.my_cool_function as fun 
+import data_helpers.example as dh
 
 @functions_framework.http
 def hello_http(request):
@@ -24,6 +25,7 @@ def hello_http(request):
     else:
         params = request.args
 
-    resp = fun.cool_function_1(params)
-    
+    # resp = fun.cool_function_1(params)
+    resp = dh.this_cool_function()
+    resp = str(resp)
     return resp
